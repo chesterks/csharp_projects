@@ -1,0 +1,59 @@
+private void button1_Click(object sender, EventArgs e)
+{
+	double a;
+	double b;
+	double ans;
+
+	a = Convert.ToDouble(txtFirstInput.Text);
+	b = Convert.ToDouble(txtSecondInput.Text);
+	ans = a + b;
+	txtAnswer.Text = ans.ToString();
+}
+
+private void button2_Click(object sender, EventArgs e)
+{
+	double a;
+	double b;
+	double ans;
+
+	a = Convert.ToDouble(txtFirstInput.Text);
+	b = Convert.ToDouble(txtSecondInput.Text);
+	ans = a - b;
+	txtAnswer.Text = ans.ToString();
+}
+
+private void button3_Click(object sender, EventArgs e)
+{
+	double a;
+	double b;
+	double ans;
+
+	a = Convert.ToDouble(txtFirstInput.Text);
+	b = Convert.ToDouble(txtSecondInput.Text);
+	ans = a * b;
+	txtAnswer.Text = ans.ToString();
+}
+private void button4_Click(object sender, EventArgs e)
+{
+	double a;
+	double b;
+	double ans;
+
+	a = Convert.ToDouble(txtFirstInput.Text);
+	b = Convert.ToDouble(txtSecondInput.Text);
+	ans = a / b;
+	txtAnswer.Text = ans.ToString();
+}
+
+private void button5_Click(object sender, EventArgs e)
+{
+	txtFirstInput.Clear();
+	txtSecondInput.Clear();
+	txtAnswer.Clear();
+
+}
+
+
+
+
+
